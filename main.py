@@ -2,7 +2,6 @@
 import re
 import difflib
 import os
-# print(f"{os.path.getsize('words.txt')/1e+6} GB")
 words_file = open("words.txt", "r")
 words = words_file.read().lower()
 words_array = words.split('\n')
